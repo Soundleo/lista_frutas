@@ -1,8 +1,6 @@
 # criar uma lista de frutas
 frutas = []
 import os
-from datetime import date
-dia =   date.today().day
 
 print ('*******************lista de compras********************')
 
@@ -22,4 +20,3 @@ while True:
 os.system('cls')
 for fruta in frutas:
     print(fruta)
-print(dia)
